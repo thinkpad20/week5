@@ -10,3 +10,17 @@
 
   <p><%= submit_tag %></p>
 <% end %>
+
+<%= form_for @movie do |f| %>
+  <p>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+  </p>
+
+  <p>
+    <%= f.label :year %>
+    <%= f.text_field :year %>
+  </p>
+
+  <p><%= f.submit %></p>
+<% end %>

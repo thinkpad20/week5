@@ -9,13 +9,13 @@ class MoviesController < ApplicationController
   end
 
   def new
-
+    @movie = Movie.new
   end
 
   def create
     m = Movie.new
-    m.title = params[:title]
-    m.year = params[:year]
+    m.title = params[:movie][:title]
+    m.year = params[:movie][:year]
     m.save
 
     redirect_to movies_url

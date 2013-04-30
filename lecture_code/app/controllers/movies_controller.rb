@@ -2,6 +2,21 @@ class MoviesController < ApplicationController
 
   def index
     @movies = Movie.all
+
+    respond_to do |format|
+      format.html # render 'index'
+      format.json { render :json => @movies }
+    end
+
+    # respond_to do |format|
+      # format.html do
+      #   render 'index'
+      # end
+      # format.json do
+      #   render :json => @movies
+      # end
+    # end
+
   end
 
   def show
@@ -13,12 +28,14 @@ class MoviesController < ApplicationController
   end
 
   def create
-    m = Movie.new
-    m.title = params[:movie][:title]
-    m.year = params[:movie][:year]
-    m.save
-
-    redirect_to movies_url
+    @movie = Movie.new
+    @movie.title = params[:movie][:title]
+    @movie.year = params[:movie][:year]
+    if @movie.save
+      redirect_to movies_url
+    else
+      render 'new'
+    end
   end
 
   def edit

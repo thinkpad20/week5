@@ -5902,3 +5902,725 @@ Served asset /reset.css - 304 Not Modified (0ms)
 
 Started GET "/assets/rails.png" for 127.0.0.1 at 2013-04-29 18:30:21 -0500
 Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/movies/new" for 127.0.0.1 at 2013-04-29 18:32:03 -0500
+Processing by MoviesController#new as HTML
+  Rendered movies/_form.html.erb (3.0ms)
+  Rendered movies/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-29 18:32:03 -0500
+Served asset /reset.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 18:32:03 -0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2013-04-29 18:32:03 -0500
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 18:32:03 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 18:32:03 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 18:32:03 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-04-29 18:32:04 -0500
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started POST "/movies" for 127.0.0.1 at 2013-04-29 18:32:09 -0500
+Processing by MoviesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dWM8wsqXkHm7ehFo+523dXvUCMiF2BhrPZQD6cNu6rI=", "movie"=>{"title"=>"", "year"=>""}, "commit"=>"Create Movie"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "movies" ("title", "year") VALUES (?, ?)  [["title", ""], ["year", nil]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 7ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-04-29 18:32:09 -0500
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" 
+  Rendered movies/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 20ms (Views: 17.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-29 18:32:09 -0500
+Served asset /reset.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 18:32:09 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 18:32:09 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 18:32:09 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2013-04-29 18:32:09 -0500
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 18:32:09 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-04-29 18:32:09 -0500
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/movies/new" for 127.0.0.1 at 2013-04-29 18:33:56 -0500
+Processing by MoviesController#new as HTML
+  Rendered movies/_form.html.erb (4.6ms)
+  Rendered movies/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 74ms (Views: 14.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-29 18:33:56 -0500
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2013-04-29 18:33:56 -0500
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 18:33:56 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 18:33:56 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 18:33:56 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 18:33:56 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-04-29 18:33:56 -0500
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started POST "/movies" for 127.0.0.1 at 2013-04-29 18:33:57 -0500
+Processing by MoviesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dWM8wsqXkHm7ehFo+523dXvUCMiF2BhrPZQD6cNu6rI=", "movie"=>{"title"=>"", "year"=>""}, "commit"=>"Create Movie"}
+Redirected to http://localhost:3000/movies
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "movies" ("title", "year") VALUES (?, ?)  [["title", ""], ["year", nil]]
+  [1m[36m (2.2ms)[0m  [1mcommit transaction[0m
+Redirected to 
+Completed 500 Internal Server Error in 10ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/movies_controller.rb:24:in `create'
+
+
+  Rendered /Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+  Rendered /Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.4ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started POST "/movies" for 127.0.0.1 at 2013-04-29 18:42:23 -0500
+Processing by MoviesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dWM8wsqXkHm7ehFo+523dXvUCMiF2BhrPZQD6cNu6rI=", "movie"=>{"title"=>"", "year"=>""}, "commit"=>"Create Movie"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered movies/_form.html.erb (4.6ms)
+  Rendered movies/new.html.erb within layouts/application (5.4ms)
+Completed 500 Internal Server Error in 20ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: <%= form_for @movie do |f| %>
+    2:   <p>
+    3:     <%= f.label :title %>
+    4:     <%= f.text_field :title %>
+  app/views/movies/_form.html.erb:1:in `_app_views_movies__form_html_erb___620294489410759796_70269507411520'
+  app/views/movies/new.html.erb:3:in `_app_views_movies_new_html_erb__446945317478585784_70269507347660'
+  app/controllers/movies_controller.rb:22:in `create'
+
+
+  Rendered /Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.4ms)
+
+
+Started POST "/movies" for 127.0.0.1 at 2013-04-29 18:44:34 -0500
+Processing by MoviesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dWM8wsqXkHm7ehFo+523dXvUCMiF2BhrPZQD6cNu6rI=", "movie"=>{"title"=>"", "year"=>""}, "commit"=>"Create Movie"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered movies/_form.html.erb (3.5ms)
+  Rendered movies/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 24ms (Views: 12.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-29 18:44:34 -0500
+Served asset /reset.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2013-04-29 18:44:34 -0500
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 18:44:35 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 18:44:35 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 18:44:35 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 18:44:35 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-04-29 18:44:35 -0500
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started POST "/movies" for 127.0.0.1 at 2013-04-29 18:45:41 -0500
+Processing by MoviesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dWM8wsqXkHm7ehFo+523dXvUCMiF2BhrPZQD6cNu6rI=", "movie"=>{"title"=>"", "year"=>""}, "commit"=>"Create Movie"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+ERROR: compiling _app_views_movies__form_html_erb___620294489410759796_70269524997480 RAISED /Users/jcohen/dev/uc/week5/lecture_code/app/views/movies/_form.html.erb:23: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/jcohen/dev/uc/week5/lecture_code/app/views/movies/_form.html.erb:25: syntax error, unexpected end-of-input, expecting keyword_end
+Function body:           def _app_views_movies__form_html_erb___620294489410759796_70269524997480(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "movies/_form";_old_output_buffer = @output_buffer;form = local_assigns[:form];;@output_buffer = output_buffer || ActionView::OutputBuffer.new; if @movie.errors.any? 
+@output_buffer.safe_concat('<ul>
+'); @movie.errors.full_messages.each do |msg|  
+@output_buffer.safe_concat('  <li>');@output_buffer.append= ( msg );@output_buffer.safe_concat('</li>
+'); end 
+@output_buffer.safe_concat('</ul>
+
+');@output_buffer.append=  form_for @movie do |f| @output_buffer.safe_concat('
+');@output_buffer.safe_concat('  <p>
+    ');@output_buffer.append= ( f.label :title );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    ');@output_buffer.append= ( f.text_field :title );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  </p>
+
+  <p>
+    ');@output_buffer.append= ( f.label :year );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    ');@output_buffer.append= ( f.text_field :year );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  </p>
+
+  <p>');@output_buffer.append= ( f.submit );@output_buffer.safe_concat('</p>
+'); end 
+@output_buffer.safe_concat('
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_view/template.rb:297:in `module_eval'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_view/template.rb:297:in `compile'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_view/template.rb:244:in `block in compile!'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_view/template.rb:232:in `synchronize'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_view/template.rb:232:in `compile!'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_view/template.rb:144:in `block in render'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-3.2.13/lib/active_support/notifications.rb:125:in `instrument'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_view/template.rb:143:in `render'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_view/renderer/partial_renderer.rb:265:in `render_partial'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_view/renderer/partial_renderer.rb:238:in `block in render'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-3.2.13/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `instrument'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_view/renderer/partial_renderer.rb:237:in `render'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_view/renderer/renderer.rb:41:in `render_partial'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+/Users/jcohen/dev/uc/week5/lecture_code/app/views/movies/new.html.erb:3:in `_app_views_movies_new_html_erb__446945317478585784_70269507347660'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_view/template.rb:145:in `block in render'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-3.2.13/lib/active_support/notifications.rb:125:in `instrument'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_view/template.rb:143:in `render'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-3.2.13/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `instrument'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:88:in `render'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-3.2.13/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-3.2.13/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activerecord-3.2.13/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/jcohen/dev/uc/week5/lecture_code/app/controllers/movies_controller.rb:22:in `create'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:414:in `_run__2145901008410265502__process_action__3205384648953034708__callbacks'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-3.2.13/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-3.2.13/lib/active_support/notifications.rb:123:in `instrument'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activerecord-3.2.13/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/abstract_controller/base.rb:121:in `process'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_controller/metal.rb:203:in `dispatch'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_controller/metal.rb:246:in `block in action'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/routing/route_set.rb:612:in `call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/rack-1.4.5/lib/rack/conditionalget.rb:35:in `call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activerecord-3.2.13/lib/active_record/query_cache.rb:64:in `call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activerecord-3.2.13/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:405:in `_run__230524837160152725__call__2205787075648404635__callbacks'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-3.2.13/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/railties-3.2.13/lib/rails/rack/logger.rb:32:in `call_app'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/railties-3.2.13/lib/rails/rack/logger.rb:16:in `block in call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-3.2.13/lib/active_support/tagged_logging.rb:22:in `tagged'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/railties-3.2.13/lib/rails/rack/logger.rb:16:in `call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-3.2.13/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/static.rb:63:in `call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/railties-3.2.13/lib/rails/engine.rb:479:in `call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/railties-3.2.13/lib/rails/application.rb:223:in `call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/railties-3.2.13/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+/Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+  Rendered movies/_form.html.erb (2.2ms)
+  Rendered movies/new.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (/Users/jcohen/dev/uc/week5/lecture_code/app/views/movies/_form.html.erb:23: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/jcohen/dev/uc/week5/lecture_code/app/views/movies/_form.html.erb:25: syntax error, unexpected end-of-input, expecting keyword_end):
+    20: <% end %>
+  app/views/movies/new.html.erb:3:in `_app_views_movies_new_html_erb__446945317478585784_70269507347660'
+  app/controllers/movies_controller.rb:22:in `create'
+
+
+  Rendered /Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.9ms)
+
+
+Started POST "/movies" for 127.0.0.1 at 2013-04-29 18:46:08 -0500
+Processing by MoviesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dWM8wsqXkHm7ehFo+523dXvUCMiF2BhrPZQD6cNu6rI=", "movie"=>{"title"=>"", "year"=>""}, "commit"=>"Create Movie"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered movies/_form.html.erb (5.2ms)
+  Rendered movies/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 16ms (Views: 13.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 18:46:08 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 18:46:08 -0500
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2013-04-29 18:46:08 -0500
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-29 18:46:08 -0500
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 18:46:08 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 18:46:08 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-04-29 18:46:08 -0500
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-04-29 18:49:16 -0500
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" 
+  Rendered movies/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 23ms (Views: 20.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-29 18:49:16 -0500
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2013-04-29 18:49:16 -0500
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 18:49:16 -0500
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 18:49:16 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 18:49:16 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 18:49:16 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-04-29 18:49:16 -0500
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started DELETE "/movies/12" for 127.0.0.1 at 2013-04-29 18:49:18 -0500
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"dWM8wsqXkHm7ehFo+523dXvUCMiF2BhrPZQD6cNu6rI=", "id"=>"12"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."id" = 12 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 12]]
+  [1m[35m (1.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 8ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-04-29 18:49:18 -0500
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+  Rendered movies/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-29 18:49:18 -0500
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 18:49:18 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2013-04-29 18:49:19 -0500
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 18:49:19 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 18:49:19 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 18:49:19 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-04-29 18:49:19 -0500
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started DELETE "/movies/14" for 127.0.0.1 at 2013-04-29 18:49:20 -0500
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"dWM8wsqXkHm7ehFo+523dXvUCMiF2BhrPZQD6cNu6rI=", "id"=>"14"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."id" = 14 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "movies" WHERE "movies"."id" = ?  [["id", 14]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 7ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-04-29 18:49:20 -0500
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" 
+  Rendered movies/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-29 18:49:20 -0500
+Served asset /reset.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2013-04-29 18:49:20 -0500
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 18:49:20 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 18:49:20 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 18:49:20 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 18:49:20 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-04-29 18:49:20 -0500
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started DELETE "/movies/15" for 127.0.0.1 at 2013-04-29 18:49:21 -0500
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"dWM8wsqXkHm7ehFo+523dXvUCMiF2BhrPZQD6cNu6rI=", "id"=>"15"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."id" = 15 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 15]]
+  [1m[35m (1.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 4ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-04-29 18:49:21 -0500
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+  Rendered movies/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 18ms (Views: 16.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-29 18:49:21 -0500
+Served asset /reset.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 18:49:21 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2013-04-29 18:49:21 -0500
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 18:49:21 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 18:49:21 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 18:49:21 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-04-29 18:49:21 -0500
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/movies.json" for 127.0.0.1 at 2013-04-29 18:54:43 -0500
+Processing by MoviesController#index as JSON
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" 
+Completed 500 Internal Server Error in 4ms
+
+ActionView::MissingTemplate (Missing template movies/index, application/index with {:locale=>[:en], :formats=>[:json], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/Users/jcohen/dev/uc/week5/lecture_code/app/views"
+):
+  actionpack (3.2.13) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.13) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.13) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.13) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.13) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.13) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.13) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.13) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.13) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (3.2.13) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:414:in `_run__2145901008410265502__process_action__4357030306587945799__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__230524837160152725__call__2205787075648404635__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/jcohen/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-04-29 18:57:10 -0500
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+  Rendered movies/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 26ms (Views: 17.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-04-29 18:57:10 -0500
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2013-04-29 18:57:10 -0500
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-29 18:57:10 -0500
+Served asset /application.css - 304 Not Modified (50ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-29 18:57:10 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-29 18:57:11 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-29 18:57:11 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-04-29 18:57:11 -0500
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/movies.json" for 127.0.0.1 at 2013-04-29 18:57:16 -0500
+Processing by MoviesController#index as JSON
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" 
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.2ms)

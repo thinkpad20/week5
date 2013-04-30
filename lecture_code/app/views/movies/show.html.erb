@@ -2,3 +2,12 @@
 
 <hr>
 <p>Year: <%= @movie.year %></p>
+
+<hr>
+<h2><strong>Characters</strong></h2>
+
+<ul>
+  <% @movie.characters.each do |c| %>
+    <li><%= c.name %></li>
+  <% end %>
+</ul>

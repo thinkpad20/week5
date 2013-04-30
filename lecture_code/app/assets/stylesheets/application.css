@@ -12,3 +12,8 @@
  *= require movies
  *= require_self
  */
+
+header {
+  border-bottom: solid 2px #CCC;
+  margin-bottom: 24px;
+}

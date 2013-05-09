@@ -1,0 +1,28 @@
+<h1>Events</h1>
+
+<p><%= link_to "Add a New Event", new_event_path %></p>
+
+<table>
+  <thead>
+    <tr>
+      <!-- <th>ID Number</th> -->
+      <th>Name</th>
+      <th>Date</th>
+      <th>Venue</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @events.each do |event| %>
+      <tr>
+        <td><%= link_to event.name, event %></td>
+        <!-- <td><%= event.name %></td> -->
+        <td><%= event.date %></td>
+        <td><%= (link_to Venue.find_by_id(event.venue_id).name, Venue.find_by_id(event.venue_id)) if Venue.find_by_id(event.venue_id).present? %>
+        <td>
+          <%= link_to "Edit", edit_event_path(event) %>
+          <%= link_to "Delete", event, :method => :delete %>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

@@ -8672,3 +8672,79 @@ Connecting to database specified by database.yml
 Connecting to database specified by database.yml
 Connecting to database specified by database.yml
 Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-05-06 16:00:20 -0500
+Served asset /rails.png - 304 Not Modified (1ms)
+
+
+Started GET "/characters" for 127.0.0.1 at 2013-05-06 16:00:26 -0500
+Processing by CharactersController#index as HTML
+  [1m[36mCharacter Load (0.1ms)[0m  [1mSELECT "characters".* FROM "characters" [0m
+  Rendered characters/index.html.erb within layouts/application (3.4ms)
+Compiled jquery.js  (3ms)  (pid 52626)
+Compiled jquery_ujs.js  (20ms)  (pid 52626)
+Compiled actors.js  (163ms)  (pid 52626)
+Compiled application.js  (272ms)  (pid 52626)
+Completed 200 OK in 367ms (Views: 305.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2013-05-06 16:00:26 -0500
+Served asset /movies.css - 200 OK (5ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-05-06 16:00:26 -0500
+Served asset /reset.css - 200 OK (4ms)
+
+
+Started GET "/assets/characters.js?body=1" for 127.0.0.1 at 2013-05-06 16:00:26 -0500
+Served asset /characters.js - 200 OK (2ms)
+
+
+Started GET "/assets/actors.js?body=1" for 127.0.0.1 at 2013-05-06 16:00:26 -0500
+Served asset /actors.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-06 16:00:26 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-06 16:00:26 -0500
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-06 16:00:26 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-06 16:00:26 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-05-06 16:00:26 -0500
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/characters/new" for 127.0.0.1 at 2013-05-06 16:00:29 -0500
+Processing by CharactersController#new as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" 
+  Rendered characters/_form.html.erb (54.8ms)
+  Rendered characters/new.html.erb within layouts/application (135.6ms)
+Completed 200 OK in 146ms (Views: 144.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-06 16:00:30 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-06 16:00:30 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-06 16:00:30 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-05-06 16:00:30 -0500
+Served asset /rails.png - 304 Not Modified (0ms)

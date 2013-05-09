@@ -1,0 +1,30 @@
+  <div class="row">
+    <div class="span12 meetup">
+      <h2>Venues</h2>
+
+<%= link_to "Add a New Venue", new_venue_path %>
+
+<table class="table unstyled">
+  <tr>
+    <th>Name</th>
+    <th>Address</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+  <% @venues.each do |venue| %>
+    <tr>
+      <td><%= link_to venue.name, venue %></td>
+      <td><%= venue.address %></td>
+      <td>
+        <%= link_to "Edit", edit_venue_path(venue) %>
+        <%= link_to "Delete", venue, :method => :delete %>
+    </tr>
+  <% end %>
+</table>
+
+<br />
+
+  </div>
+</div>

@@ -1,0 +1,6 @@
+Event: <%= @event.name %><br>
+Date: <%= @event.date %><br>
+Description: <%= @event.description %> <br>
+Venue: <%= link_to @venue.name, @venue %><br>
+
+<%= link_to "Edit this event", edit_event_path(@event) %> 
